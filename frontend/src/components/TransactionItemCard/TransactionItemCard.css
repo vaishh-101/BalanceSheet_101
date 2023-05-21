@@ -1,0 +1,58 @@
+.transaction-item-card-container {
+    width: 90%;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px  8px 0px 0px;
+    position: relative;
+}
+
+.transaction-item-card-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+
+.receivable {
+    background-color: #80ff80;
+    border-bottom: 5px solid #009933;
+}
+
+.payable {
+    background-color: #ffb3b3;
+    border-bottom: 5px solid #ff3333;
+}
+
+.transaction-item-card-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-badge{
+    display: block;
+    background-color: white;
+    border-radius: 30px;
+    padding: 3px;
+    margin: 3px;
+    min-width: 100px;
+    text-align: center;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.delete-button{
+    position: absolute;
+    right: -35px;
+    top: 30%;
+    display: flex;
+    background-color: white;
+    height:40px ;
+    width: 40px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
